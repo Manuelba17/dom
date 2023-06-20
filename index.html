@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Perfumes latinos</h1>
+    </header>
+
+    <main>
+      <section class="container">
+        <h2>Registros de Ventas</h2>
+       
+
+        <form action="" class="forms">
+          <div>
+            <h3>Selecione al vendedor</h3>
+            <select class="opcion" name="vendedor" id="vend">
+                <option value=""></option>
+                <option value="juana">Juana</option>
+                <option value="pedro">Pedro</option>
+            </select>
+          </div>
+          <div>
+            <h3>Seleccione Prodcuto</h3>
+            <select name="producto" id="product">
+                <option value=""></option>
+                <option value="aqua">Aqua</option>
+                <option value="emocion">Emoción</option>
+                <option value="alegria">Alegría</option>
+                <option value="frescura">Frescura</option>
+            </select>
+          </div>
+          <div>
+          <input type="submit" value="Agregar">
+        </div>
+        </form>
+
+        <button onclick="funcion()" >Calcular empleado del mes</button>
+
+      </section>
+    </main>
+
+    <script src="./vendedor.js"></script>
+  </body>
+</html>
